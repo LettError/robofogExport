@@ -1,6 +1,6 @@
 # robofogExport
 
-![RoboFog About Screen](./robofogScreen.png)
+![RoboFog About Screen](./aboutRoboFog.png)
 
 This is a collection of scripts that will assist extracting font data from old RoboFog files. These script have to run in RoboFog, so you still need [some sort of emulator](http://sheepshaver.cebix.net) or [old computer](https://en.wikipedia.org/wiki/Mac_OS_9).
 
