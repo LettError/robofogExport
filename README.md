@@ -6,12 +6,15 @@ This is a collection of scripts that will assist extracting font data from old R
 
 ## Brief reminder of OS9 and Python 1.5
 
-* RoboFog does not know Unicode or UTF-8, so it generates files in Mac encoding.
-* RoboFog has no plistlib
+* RoboFog and Python 1.5 did not have any Unicode or UTF-8 support.
+* RobofogExport will generates files in Mac encoding.
+* RoboFog had no plistlib
+* RoboFog had no kerning groups
+* Background glyphs are exported with a `#` prefix. There is a separate script for RoboFont that moves these background glyphs in the right place. 
 * Export only
 * Filenames have a maximum length of around 31 characters.
 
-## Operating
+## Exporting
 
 * Make sure the whole folder is available to Robofog.
 * Open a font
