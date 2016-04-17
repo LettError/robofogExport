@@ -36,3 +36,7 @@ writing lib.plist...
 Saved at Unix:Users:erik:SharedWithOS9:TestRoboFogFile_RF.ufo
 Done!
 ```
+
+## Credits
+
+RoboFog was a program developed by Petr van Blokland, Just van Rossum, Erik van Blokland, on top of Fontographer 3.5 source material.
