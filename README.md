@@ -10,7 +10,7 @@ This is a collection of scripts that will assist extracting font data from old R
 * RobofogExport will generates files in Mac encoding.
 * RoboFog had no plistlib
 * RoboFog had no kerning groups
-* Background glyphs are exported with a `#` prefix. There is a separate script for RoboFont that moves these background glyphs in the right place. 
+* Background glyphs are exported with a `#` prefix. 
 * Export only
 * Filenames have a maximum length of around 31 characters.
 
@@ -19,6 +19,8 @@ This is a collection of scripts that will assist extracting font data from old R
 * Make sure the whole folder is available to Robofog.
 * Open a font
 * Run the ExportFontToUFO.py script
+* Open the UFO in RoboFont. Other UFO-reading apps might also work, but are untested.
+* Optionally: run the `finishRoboFogExport.py` script to move background glyphs in the right place.
 
 Ouput might look like this:
 ```python
